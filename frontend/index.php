@@ -50,7 +50,7 @@
   <body class="text-center">
     
 <main class="form-signin">
-  <form action="../backend/ingreso.php">
+  <form action="../backend/ingreso.php" method ="POST">
     <img class="mb-4" src="img/bootstrap-logo.svg" alt="" width="72" height="57">
     <h1 class="h3 mb-3 fw-normal">
       Por favor ingrese
@@ -58,11 +58,11 @@
     <label for="cajaEmail" class="visually-hidden">
         Ingrese el Correo electronico
     </label>
-    <input type="email" id="cajaEmail" class="form-control" placeholder="Correo Electronico" required autofocus>
+    <input type="email" id="cajaEmail" name="cajaEmail" class="form-control" placeholder="Correo Electronico" required autofocus>
     <label for="cajaContraseña" class="visually-hidden">
         Contraseña
     </label>
-    <input type="password" id="cajaContraseña" class="form-control" placeholder="Contraseña" required>
+    <input type="password" id="cajaContraseña" name="cajaContraseña" class="form-control" placeholder="Contraseña" required>
     <div class="checkbox mb-3">
       <label>
         <input type="checkbox" value="remember-me"> 
