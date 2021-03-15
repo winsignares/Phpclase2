@@ -50,7 +50,7 @@
   <body class="text-center">
     
 <main class="form-signin">
-  <form action="../backend/ingreso.php" method ="POST">
+  <form action="../backend/ingreso.php" method ="GET">
     <img class="mb-4" src="img/bootstrap-logo.svg" alt="" width="72" height="57">
     <h1 class="h3 mb-3 fw-normal">
       Por favor ingrese
