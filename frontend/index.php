@@ -2,7 +2,7 @@
 <?php
   require_once('Componentes/head.php');
 ?>
-  <body class="text-center">
+
     
 <main class="form-signin">
   <form action="../backend/ingreso.php" method ="GET">
@@ -32,6 +32,7 @@
 </main>
 
 
-    
-  </body>
-</html>
+  
+<?php
+    require_once('Componentes/foot.php');
+?>

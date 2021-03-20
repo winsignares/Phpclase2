@@ -7,7 +7,7 @@
     <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
     <meta name="generator" content="Hugo 0.80.0">
     <title>
-       Cambio el titulo por cuarta vez
+       Proyecto Cur Componentes con php, Backend y fronted y bootstrap
     </title>
     
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
@@ -46,3 +46,4 @@
     <!-- Custom styles for this template -->
     <link href="css/style.css" rel="stylesheet">
   </head>
+  <body class="text-center">
